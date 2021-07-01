@@ -4,7 +4,7 @@
       <div style="margin-bottom:50px;">
         <p class="title">website.</p>
         <div v-for="(item,index) in website" :key="item.name" :link="item.link" class="work">
-          <router-link :to="item.link">
+          <router-link :to="item.link" class="hover">
             {{ item.name }}
           </router-link>
         </div>
@@ -12,7 +12,7 @@
       <div style="margin-bottom:50px;">
         <p class="title">other.</p>
         <div v-for="(item,index) in other" :key="item.name" :link="item.link" class="work">
-          <router-link :to="item.link">
+          <router-link :to="item.link" class="hover">
             {{ item.name }}
           </router-link>
         </div>
@@ -20,7 +20,7 @@
       <div>
         <p class="title">about me.</p>
         <div class="work">
-          <router-link to="whoami">
+          <router-link to="whoami" class="hover">
             Niwasaki
           </router-link>
         </div>
@@ -54,7 +54,7 @@ export default{
 }
 </script>
 
-<style scoped>
+<style>
 
 .list{
   position: fixed;
