@@ -9,21 +9,32 @@
           <p>中学3年生にプログラミングを知り、独学でWebアプリケーション学び始める。高専に入学、システム研究部に入り、優秀な先輩方と出会い行動力を養い色々なイベントに参加するようになる。ARCoreを知り、ARについて学習を始める。モーショングラフィックスを知り、デザインを本格的に好きになる。デザインについて調べていくうちに"なめらかサンショウオ"さんの作品を見つけ、フロントエンドのUIUX奥深さを知りフロントエンドを学び始める。</p>
         </div>
       </div>
-      <div style="height:100px;">
+      <div style="height:200px;" class="dream">
         <dl>
           <dt>my夢</dt>
           <dd>cekaiのようなデザイナーチームにWebデザイナーとして入り、自分のアイデアを模索していき、自分が求める究極を見つけたい</dd>
         </dl>
       </div>
       <div class="his">
-        <h3>主に参加したコンテスト</h3>
-        <ul>
-          <li>HackU OSAKA 2018</li>
-          <li>群馬プログラミングアワード</li>
-          <li>HackU OSAKA 2019</li>
-          <li>パソコン甲子園</li>
-          <li></li>
-        </ul>
+        <dl>
+          <dt>主な参加イベント</dt>
+          <dd>HackU 2018 OSAKA</dd>
+          <dd>HackU 2019 OSAKA</dd>
+          <dd>群馬プログラミングアワード</dd>
+          <dd>パソコン甲子園</dd>
+          <dt>スキル</dt>
+          <dd>Vue.js</dd>
+          <dd>Django</dd>
+          <dd>Unity</dd>
+          <dd>ARcore</dd>
+          <dd>Aviutl</dd>
+          <dt>言語</dt>
+          <dd>javascript</dd>
+          <dd>python</dd>
+          <dd>C#</dd>
+          <dd>mySQL</dd>
+
+        </dl>
       </div>
     </div>
   </div>
@@ -57,11 +68,11 @@ p{
   font-size: 15px;
   font-weight: 900;
 }
-dl{
+.dream dl{
   font-family: serif;
   font-size: 30px;
 }
-dt {
+.dream dt {
   float: left;
   clear: left;
   margin-right: 0.5em;
@@ -71,7 +82,7 @@ dt {
   color:darkgray;
 }
 
-dd {
+.dream dd {
 	float:left;
 	margin-left:1em;
   color:black;
@@ -87,13 +98,26 @@ dd {
   width: 100%;
 }
 .his{
-  margin-top:100px;
   font-family: serif;
 }
 h3{
   font-weight: 400;
 }
-li{
+.his dl{
+  font-family: serif;
+}
+.his dt {
+  float: left;
+  clear: left;
+  margin-right: 0.5em;
+  width: 120px;
+  font-weight: 900;
+  color:darkgray;
+}
 
+.his dd {
+	float:left;
+	margin-left:1em;
+  color:black;
 }
 </style>
