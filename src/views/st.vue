@@ -19,7 +19,7 @@
         </dl>
       </div>
       <div class="movie">
-        <video src="@/assets/ganbatta.mp4" loop autoplay muted></video>
+        <video src="../assets/ganbatta.mp4" loop autoplay muted></video>
       </div>
     </div>
   </div>
