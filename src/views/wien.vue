@@ -32,11 +32,13 @@
 
       </dl>
       </div>
+
       <div class="img">
-        <img src="@/assets/tablegraph.png">
+        <p>画像の出力例1、画像の出力例2、アプリの外見、トリミングの様子</p>
+        <img src="@/assets/out.png">
+        <img src="@/assets/tablegraph.png" alt="dfafad">
         <img src="@/assets/home.png">
         <img src="@/assets/trim.png">
-        <img src="@/assets/out.png">
       </div>
     </div>
   </div>
@@ -96,6 +98,6 @@ dd {
 .img img{
   object-fit: contain;
   max-width: 500px;
-  width: 100%;
+  height:300px;
 }
 </style>

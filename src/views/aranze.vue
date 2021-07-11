@@ -27,6 +27,7 @@
       </dl>
       </div>
       <div class="img">
+        <p>プレイ風景、地面認識、ステージ</p>
         <img src="@/assets/aranzeui.png">
         <img src="@/assets/aranzeninsi.png">
         <img src="@/assets/aranzemap.png">

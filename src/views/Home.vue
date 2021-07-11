@@ -1,8 +1,9 @@
 <template>
   <div class="home">
+    <div class="para">
+    </div>
     <div class="lay">
-      <h1>Hi Visitor!</h1>
-      <h3>左のリストから閲覧するアプリを見ていってください!</h3>
+      <h1>Select the TITLE you want to browse from the list on the left</h1>
     </div>
   </div>
 </template>
@@ -18,24 +19,40 @@ export default {
   width: 100%;
   height: 100%;
   text-align: center;
-  font-family: Morganite;
   position: relative;
-  background-image: url("../assets/dor.png");
   background-size: cover;
+  font-family: Modernist;
+  background-color: #202020;
 }
-.lay{
-  position: absolute;
-  font-size: 80px;
-  width: 80%;
+.para{
+  position:absolute;
   left: 50%;
   top:50%;
   color: black;
   transform: translateX(-50%) translateY(-50%);
-  color: lightgray;
+  display: flex;
+
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid black;
+}
+
+.lay{
+  position: absolute;
+  font-size: 30px;
+  width: 80%;
+  left: 50%;
+  top:50%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
 }
 .lay h1{
   mix-blend-mode: difference;
   margin:0;
+  font-weight: 100;
 }
 .lay h3{
   font-size: 30px;margin:0;
